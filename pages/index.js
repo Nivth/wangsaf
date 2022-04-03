@@ -109,12 +109,9 @@ export default function Home() {
                 </h3>
                 <Image
                   src="/wangsaf.png"
-                  style={{
-                    margin: "30px",
-                    borderRadius: "50%",
-                  }}
                   height={200}
                   width={200}
+                  className="wangsaf"
                 />
                 <p
                   style={{
@@ -148,7 +145,7 @@ export default function Home() {
                     textAlign: "left",
                   }}
                 >
-                  I dont know what to write here, and maybe i'll sleep.
+                  I dont know what to write here, and maybe i&apos;ll sleep.
                 </p>
                 <div
                   style={{

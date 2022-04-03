@@ -78,3 +78,7 @@ a {
 .btn:active {
   transform: scale(0.85);
 }
+
+.wangsaf{
+  border-radius: 50%;
+}
