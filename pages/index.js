@@ -77,7 +77,11 @@ export default function Home() {
                   alignItems: "center",
                 }}
               >
-                <a href="https://github.com/Nivth" target="_blank">
+                <a
+                  href="https://github.com/Nivth"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Image
                     src="/icons8-github.svg"
                     alt="github"
@@ -103,14 +107,14 @@ export default function Home() {
                 >
                   Hi There ! 👋👋👋
                 </h3>
-                <img
+                <Image
                   src="/wangsaf.png"
                   style={{
-                    width: "200px",
                     margin: "30px",
-                    height: "200px",
                     borderRadius: "50%",
                   }}
+                  height={200}
+                  width={200}
                 />
                 <p
                   style={{

@@ -24,7 +24,7 @@ function Login() {
         </Button>
       </LoginContainer>
       <SocialContainer>
-        <a href="https://github.com/Nivth" target="_blank">
+        <a rel="noreferrer" href="https://github.com/Nivth" target="_blank">
           <Image src="/icons8-github.svg" alt="github" height={40} width={40} />
         </a>
       </SocialContainer>
